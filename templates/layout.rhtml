@@ -1,33 +1,58 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="description" content="<%= @context[:description] || 'Default description' %>" />
- 
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/peak.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css"/>
     <title><%= title %></title>
-  </head>
-  <body>
-    <section>
-      <%= yield %> 
-    </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
-    </footer>
-  </body>
-  <div id="disqus_thread"></div>
-	<script type="text/javascript">
-  	/**
-    	* var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
-    	*/
-  	(function() {
-   		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-   		dsq.src = 'http://agilemdblog.disqus.com/embed.js';
-   		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  		})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=agilemdblog">comments powered by Disqus.</a></noscript>
-	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</head>
+<body id="page">
+    <div id="container">
+        <div id="masthead">
+            <h1><a href="">Agile Medical Devices Blog</a></h1>
+            <h4>Riaan Rottier</h4>
+        </div>
+        <div id="navbar">
+            <div id="tabs">
+                <ul id="navlist">
+                    <li id="first"><a href="/">Blog</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="leftbar">
+                <h2>About This Blog</h2>
+                <div class="center">
+                    <p><img class="border_5px" src="/images/blog.jpg" width="100" height="75" alt="Sand" /></p>
+                    <p>All things agile and especially related to Agile methodologies applied to the medical device industry.  Expect a spattering of systems thinking, theory of constraints and functional programming mixed in.</p>
+                </div>
+                <div class="center">
+		<h2>Posts</h2>
+		<ul>
+        		<li><a href=""></a></li>
+ 		</ul>
+	    </div>
+	    </div>
+            <div id="content2">
+                <section>
+      			<%= yield %> 
+    		</section>
+            </div>
+            <br style="clear: both;" />
+        </div>
+            <div id="footer">
+                <p>
+                    <a href="/">Blog</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="/about">About</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="/archives">Archives</a>&nbsp;&nbsp;|&nbsp;
+                </p>
+                <p>Copyright &copy; 2010 Riaan Rottier, all rights reserved. Powered by  <a href="http://cloudhead.io/toto">toto</a></p>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-

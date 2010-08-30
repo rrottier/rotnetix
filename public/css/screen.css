@@ -1,0 +1,182 @@
+/*************************************** GLOBAL ***************************************/
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#page {
+    width: 760px;
+    margin: 0 auto;
+}
+#container {
+    clear: both;
+    float: left;
+    width: 760px;
+    text-align: left;   /*** Re-aligns text to the left to compensate for Win IE 5 hack
+                                used in the body class. ***/
+    margin: 0;
+}
+#main {
+    width: 760px;
+    margin-top: 14px;
+}
+.left {
+    float: left;
+    clear: left;
+    width: 500px;
+}
+.center {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.right {
+    clear: both;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+/*************************************** GLOBAL -> TYPOGRAPHY ***************************************/
+html,body,div,p {
+    font: normal 11px verdana, sans-serif;
+    color: #333;
+    line-height: 125%;
+}
+
+/*************************************** GLOBAL -> LISTS ***************************************/
+#content ul, #content2 ul, #content3 ul, #rightbar ul {
+    padding: 4px 13px 0 32px;
+    margin: 0;
+    clear: left;
+}
+#content ul li, #content2 ul li, #content3 ul li, #rightbar ul li {
+    padding: 0 0 12px 0;
+    margin: 0;
+    line-height: 13px;
+    list-style-type: circle;
+    list-style-image: url(../images/bullet.gif);
+}
+
+/*************************************** GLOBAL -> FORMS ***************************************/
+form {
+    padding: 0;
+    margin: 0;
+}
+.input {
+    width: 85px;
+    font-size: 9px;
+}
+.submit {
+    font-size: 9px;
+}
+
+/*************************************** GLOBAL -> IMAGES ***************************************/
+img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.border_2px {
+    border: 1px solid #D8D8D8;
+    padding: 2px;
+    background: #fff;
+}
+.border_5px {
+    border: 1px solid #D8D8D8;
+    padding: 5px;
+    background: #fff;
+    margin: 0 0 4px 0;
+}
+
+/*************************************** HEADER ***************************************/
+#masthead {
+    width: 760px;
+    padding: 44px 0 20px;
+    text-align: center;
+}
+#masthead h1 a {
+    text-decoration: none;
+}
+
+/*************************************** HEADER -> NAVBAR -> TABS ***************************************/
+#tabs {
+    text-align: center;
+}
+#tabs ul {
+    margin: 0;
+    padding: 3px 0 4px;
+}
+#tabs ul #first {           /*** Turns off left border for first nav link (Home) ***/
+    border-left-style: none !important;
+}
+#navlist li {
+    padding: 0;
+    margin: 0;          /*** Space between tabs ***/
+    display: inline;
+    list-style: none; 
+    list-style-image: none !important; 
+    border-left: 1px solid #fff;
+    font: normal 10px Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+}
+#navlist li a {
+    padding: 10px 18px;       /*** Space inside tabs ***/
+    text-decoration: none;
+}
+
+/*************************************** LEFTBAR ***************************************/
+#leftbar {
+    float: left;
+    width: 162px;
+    padding-right: 12px;
+}
+#sidenav ul {
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    }
+#sidenav ul li {
+    list-style: none; 
+    list-style-image: none !important; 
+    height: 21px;
+    border-bottom: 1px solid #fff;
+    font: normal 10px Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    }
+
+/*************************************** CONTENT ***************************************/
+#content3 {
+    width: 760px;
+}
+#contentpad {
+    padding: 0 13px;
+}
+
+/*************************************** RIGHTBAR ***************************************/
+#rightbar {
+    float: left;
+    width: 162px;
+    padding-left: 12px;
+}
+#rightbar ul#language {
+    margin: 0;
+    padding: 7px 14px;
+    list-style: none;
+}
+#rightbar ul#language li {
+    list-style-image: none;
+    padding: 1px 2px 3px 2px;
+    margin: 0;
+    line-height: 0;
+}
+#rightbar ul#language a {
+    text-decoration: none;
+}
+
+/*************************************** FOOTER ***************************************/
+#footer p {
+    font-size: 9px;
+}

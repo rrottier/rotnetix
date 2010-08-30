@@ -1,0 +1,113 @@
+body {
+    background: #fff url(../images/peak/topbg.gif) repeat-x;
+    text-align: center; /*** Centers the layout in Win IE 5.
+                                Text is re-aligned left in the #container class. ***/
+}
+
+/*************************************** GLOBAL -> LINKS ***************************************/
+a {
+    text-decoration: underline;
+    color: #43547E;
+}
+a:hover {
+    text-decoration: underline;
+    color: #1089AC;
+}
+
+/*************************************** GLOBAL -> TYPOGRAPHY ***************************************/
+h1 {
+    font: normal 24px Palatino, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #43547E;
+    margin: 0;
+}
+h4 {
+    font: normal 11px "Trebuchet MS", verdana, sans-serif;
+    letter-spacing: 1px;
+    color: #B2BAD1;
+    line-height: 10px;
+    margin: 3px 0 0;
+}
+
+/*************************************** GLOBAL -> IMAGES ***************************************/
+.border_2px {
+    border: 1px solid #D8D8D8;
+    padding: 2px;
+    background: #fff;
+}
+
+/*************************************** HEADER -> NAVBAR ***************************************/
+#navbar {
+    background: #F2F4FB url(../images/peak/navbg.gif) top center repeat-x;
+    border: 1px solid #F2F4FB;
+}
+
+/*************************************** LEFTBAR ***************************************/
+#leftbar h2 {
+    font: bold 12px Palatino, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    text-transform: uppercase;
+    color: #43547E;
+    text-align: center;
+    margin: 2.5em 0 0;
+    padding-bottom: 12px;
+    background: url(../images/peak/headerbg.gif) no-repeat bottom center;
+}
+#sidenav {
+    background: #F2F4FB;
+    }
+#sidenav ul li a {
+    width: 162px !important; 
+    width: 150px; 
+    text-decoration: none; 
+    padding: 6px 0 6px 14px; 
+    color: #43547E;
+    display: block; 
+    font-weight: lighter !important;
+    }
+#sidenav ul li a:hover {
+    color: #1089AC;
+    background: url(../images/peak/sidenav_bg.gif) no-repeat;
+    }
+
+/*************************************** CONTENT ***************************************/
+#content {
+    float: left;
+    width: 406px;
+    background: #F1F3FA url(../images/peak/mainbg.gif) repeat-y;
+    border: 1px solid #F2F4FB;
+}
+#content2 {
+    float: left;
+    width: 560px !important; 
+    width: 545px; 
+    border-left: 3px double #E0E4EE;
+    padding-left: 15px;
+}
+#contentbottom {
+    background: url(../images/peak/mainbgbottom.gif) no-repeat;
+    height: 15px;
+    }   
+#contenttop {
+    background: url(../images/peak/mainbgtop.gif) no-repeat;
+    height: 5px;
+    }
+
+/*************************************** RIGHTBAR ***************************************/
+#rightbar h2 {
+    font: bold 12px Palatino, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    text-transform: uppercase;
+    color: #43547E;
+    text-align: center;
+    margin: 2.5em 0 0;
+    padding-bottom: 12px;
+    background: url(../images/peak/headerbg.gif) no-repeat bottom center;
+}
+
+/*************************************** FOOTER ***************************************/
+#footer {
+    clear: both;
+    text-align: center;
+    border-top: 3px double #E0E4EE;
+    margin-top: 15px; 
+}
