@@ -2,7 +2,6 @@
 title: Hello World
 date: 30/08/2010
 
-##My first post##
 Thank you to everyone that has encouraged me to publish my thoughts.  Time will tell whether it was good advice or bad.  And thanks to the organisers of Agile 2010 for putting on a conference that has provided me with so much food for blogging.
 
 R
