@@ -3,7 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="<%= @context[:description] || 'Default description' %>" />
+ 
     <title><%= title %></title>
   </head>
   <body>
@@ -14,5 +16,18 @@
       powered by <a href="http://cloudhead.io/toto">toto</a>
     </footer>
   </body>
+  <div id="disqus_thread"></div>
+	<script type="text/javascript">
+  	/**
+    	* var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+    	*/
+  	(function() {
+   		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   		dsq.src = 'http://agilemdblog.disqus.com/embed.js';
+   		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=agilemdblog">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </html>
 

@@ -1,0 +1,69 @@
+--- 
+title: Agile2010 - Making Change Happen and Making it Stick
+date: 30/08/2010
+description: Retelling of Mary Poppendieck's presentation "Making change happen and making it stick" at Agile 2010
+
+The advantage of only blogging once the conference is over is that you can make claims like: "this is was the best talk of the conference", without having to worry that you might later have to retract it.  Her talk contained three main points:
+
+*  Motivating people to change
+*  Providing clear directions for the change 
+*  Providing a supportive environment
+
+##Take home points##
+The key scarcity today is the time, energy and brainpower of bright, creative people.  If this is true then business is dependent on the ability to capture this resource.  To capture these people you need to provide them with a reason to be there, according to research this reason comes from:
+
+* The desire for autonomy;
+* The urge for mastery;
+* and the aspiration to contribute to something bigger than themselves.
+
+Mary suggests that one area that has managed to capture a lot of bright creative people, is the open source movement.  This is in spite of the fact that they offer no monetary award (this completely defeats current economic theory).  The key to some of the problems business has with motivation might be to treat workers like volunteers.  You recruit followers and a follower can always opt out.  Variety is also important.  Mary offered an example where each team member had:
+
+* Ownership of part of the project -> Autonomy, 
+* Bragging Rights in from of their peers and managers -> Mastery,
+* Successful Product at the end -> Purpose. 
+
+Quote from 3M:
+"Those men and women, to whom we delegate authority and responsibility, if they are good people, are going to want to do their jobs in their own way.  Mistakes will be made. But those mistakes are not as serious in the long run as the mistakes management will make if it undertakes to tell those people exactly how to do their jobs."
+
+There should be disagreements in a good team, if you do not have disagreements you do not have enough variety to drive change, people need to be able to make there own decision and specialise on their own areas, you need to be able to aggregate the thoughts and then decide where to go.  However once their are conflicting opinions you need a way of reaching a decision.  Mostly the decision should be reached by concensus but in some cases you might be in the situation where you either have a number of very strong opinions that are unlikely to be conciled or the discussion while still going on is not adding value any more.  Here again the model from the open source movement provides guidance.  Most open source project has the concept of a "Benevolent Dictator".  Dictator there for when decision is needed more than a debate.  This could be one person, like the Product Champion or can be the person in the team that owns the area that the decision falls into.  If you are the team lead it is more important to decide on who makes the decision than what the decision should be.  
+
+Without a product champion you are unlikely to attract the people you need or provide those people with an incentive to change.  This is because the you need someone that is able to:
+
+* Articulate the purpose (which should attract people)
+* Provide the structure (which should ensure that people does not waste their time)
+* Take responsibility for success (to energise people who want to be on a winning team)
+
+However the purpose of the product champion should not be like that of the traditional product owner.  They should not be setting the backlog priorities, the team should set the priorities.  If you do have a team of bright creative people that are interested in the success of the product you are insulting the team by setting the priorities for them.  Marketing bring the understanding of the market to the team and is involved in the decision, but only in as far as they help to lead the team in making the decision.  Don't protect the team too much, get them involved in delivering a successful product.  The product champion should be a technical person and understand the market, not admin person, make sure the whole thing is a success.  Dictator should not over-rule team decision...
+Make as few decisions as you possibly can. 
+
+With an motivated team seeking to improve you might still need to provide direction on what steps to take to change.  Assuming you have identified areas of problems that the team needs to improve you can then direct change using either Problem focus or Solution Focus.
+
+Prefer Solution Focus when you uncover a root cause that you cannot resolve.  Then:
+
+* Find the biggest problem
+* Understand the current situation
+* Visualize the Perfection
+* Define a target condition - small step towards perfection
+* Find instances of success - Positive Deviances, Future Perfect
+* Copy success patterns - Many small Experiments
+
+Positive deviance is looking for behaviours that work in an area where they should not work and find out why.  Future perfect is pretending that the future you want is there and then identify how you would know that it is there, basically you identify the differences between the future perfect condition and your present condition.  Use this to help you identify the good stuff that you identified from the future already happening today.  Then scale.
+
+I think the stuff above especially applied to big changes but often we need to make some continuous small improvements.  A useful tool for driving this is using a checklist to script critical moves.  A checklist is a much more poverfull tool than a procedures document because it is build in a different way.  The purpose is to remind people what to do, not how to do it.  The effect is to free people to pay attention to the more complicated aspects.   A good checklist contains the actions that has to happen and the communications that must occur.  Continuously refactor and list only the critical moves.  
+
+The next area Mary covered is the least clear to me, she talks about strategy deployment under scripting the change.  I think the main point is that you need to take a journey from problem to solution and the main stops along the way should be around:
+
+* Identifying a Purposes - to provide a focus for the effort
+* Identify a goal, with measurements 
+* Align actions with the goal (getting the right people in the right places is a big part of this, other suggestions include value stream mapping and training) 
+
+In the last part of the talk she spoke about environment affecting people's actions, metrics, management, governance system, measurement.  In my mind this ties in very closely with Systems thinking.  People will take the path of least resistance.  This path is most clearly defined by the governance system.  The slides list some of the properties of good governance systems.  To push a change through one of the ways of creating a path is using a transformation team that includes key and senior people to sell the change to the business. 
+
+My own thoughts on this:
+
+* As project team we should take more responsibility for taking part in prioritising the product backlog.  While the SME or PM should provide the team with context it makes more sense from an accountability point of view that the team takes part in prioritising the backlog.  This shifts the accountability from just getting stories done to delivering value to the customer.  The question is: "Will the team see this as empowering or as an obstacle?".  The answer probably depends on the one hand on what the team's vision is of the product that they are working on and on the other hand on they team itself, having the right combination of people in the team so that this in the end will deliver more value than a single person doing the prioritisation.
+* I also wonder if it might make sense to distribute decision making throughout the team, on the one hand you have the 3M model that has each person responsible for an specific area while on the other you have the ubuntu example where there is a single benevolent dictator
+* I really like the future perfect and positive deviance stuff, I think this could be really useful in dealing with some of the stuff that we know can be better but that we have been too afraid to tackle. 
+* Checklists could be really useful especially if they can be automated.  We have loads of procedures and are in the process of doing a big rewrite of them based on the IEC62304, maybe as part of this we could create some baseline checklists that can be continuously refined.  It might even be able to replace some parts of the procedure which would be great.
+
+
