@@ -33,7 +33,11 @@
                 <div class="center">
 		<h2>Posts</h2>
 		<ul>
-        		<li><a href=""></a></li>
+			<% 
+				articles = Site.articles(@config[:ext]).reverse.map { |a| Article.new(a, @config)} if articles.nil?
+				for article in articles %>
+				<li><a href="<%= article.path %>"><%= article.title %></a></li>
+			<% end %>
  		</ul>
 	    </div>
 	    </div>
